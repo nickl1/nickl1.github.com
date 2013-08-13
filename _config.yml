@@ -1,6 +1,15 @@
-name: Your New Jekyll Site
-markdown: redcarpet
+markdown: rdiscount
 pygments: true
-
-destination: ~/public_html/
+baseurl: /
 permalink: /:title
+rdiscount:
+  extensions: [smart]
+title : bob in air 
+production_url : nickl1.github.io
+description: "tech fan"
+disqus_shortname: jekyllchenbo 
+author :
+  name : air_bob 
+  github : airbob
+  twitter : air_bob
+  email: air.chenbo@gmail.com
